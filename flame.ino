@@ -6,8 +6,8 @@ SoftwareSerial SerialAT(3,2);
 
 #define DUMP_AT_COMMANDS //to dump the AT commands
 #define TINY_GSM_DEBUG SerialMon
-#define SMS_TARGET  "+2348104342470"
-#define CALL_TARGET "+2348104342470"
+#define SMS_TARGET  "***********"
+#define CALL_TARGET "***********"
 
 #include <TinyGsmClient.h> //to include the library.
 #ifdef DUMP_AT_COMMANDS
